@@ -1,0 +1,101 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount",
+    "class_version": 2,
+    "migration_metadata": {
+        "source_org": "asu-np"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "crm CSDEV"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "evictConnectionOnClose": {
+                        "value": false
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "DATABASE_SPECIFIER_TYPE": {
+                        "value": "Service name"
+                    },
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "SSL_CONNECT": {
+                        "value": false
+                    },
+                    "customJdbcUrl": {
+                        "value": null
+                    },
+                    "databaseName": {
+                        "value": "ASUCSDEV"
+                    },
+                    "hostname": {
+                        "value": "asucsdev.ataws.asu.edu"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "oracle.jdbc.OracleDriver"
+                    },
+                    "password": {
+                        "fp": "9d00ca9365af77ed413e8ed87cc6c65e98a4b2a1b29d9e4b6331506c6715a20a",
+                        "key": "account-cloud-managed-646cbfd7d512e73d27ef122f-2023-05-23T13:30:21-854908+00:00",
+                        "sym_iv": "xH8C064jJ0iCZXQ0wtDQCA==",
+                        "sym_key": "KR08vi4cCMcmhy7Aluoq+o3Cw90Y4DWqAMyD1su5uDlrynUX5/mwHqgud4mnX7mh82YINfsyl2BK+HSz7vsBrF6PKjL2LxVtmOx5fE3VKQrNATYhzD+AieBvFQQrf4qoYIkwdOPilz38x8nJU14mtQ9jnl7R8wc85DZy0xxRUV8NRk6oF4nWrMhUmE5ioBWeVgkFsjCKdC2X5Q9ZsbLJY1f/jiM8Q7mHQGtT24NxgSNMqRlNHOXJZfK8xWwxiVdPBfMrzXt9hfRfLVjEVVEgCp0qmLfGSYZ7RKLcnJLt2vjw3wonm0786m9eVsnfkbIdeYJhKmJrNRoOALjOG5JSjg==",
+                        "value": "yyZc8hhaPpcbkcHDOhDeAQ=="
+                    },
+                    "portNumber": {
+                        "value": 1521
+                    },
+                    "username": {
+                        "value": "PS_RDAVIES3"
+                    }
+                }
+            },
+            "jdbcUrlSource": {
+                "value": "Snap Generated"
+            }
+        },
+        "view_serial": 100
+    }
+}
